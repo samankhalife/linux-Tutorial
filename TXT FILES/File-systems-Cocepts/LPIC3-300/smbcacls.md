@@ -1,4 +1,3 @@
-```markdown
 # smbcacls
 
 `smbcacls` is a Samba command-line utility used to manage Windows NT-style Access Control Lists (ACLs) on files and directories in Samba shares. It provides functionality similar to Windows tools like `icacls` by allowing administrators to view, set, and copy ACLs. This helps ensure that permissions on files served by Samba match the intended security policies.
@@ -91,4 +90,4 @@ This copies the ACL from `folder1/file.txt` to `folder2/file.txt`.
 ## Conclusion
 
 `smbcacls` is an essential tool for Samba administrators who need to manage Windows NT-style ACLs on file shares. By offering subcommands to get, set, and copy ACLs, it helps maintain consistent and secure file permissions in mixed Windows/Unix environments. Whether used interactively or integrated into automated scripts, `smbcacls` plays a key role in ensuring that file security policies are properly enforced.
-```
+
