@@ -1,6 +1,6 @@
-# etcexports
+# /etc/exports
 
-`etcexports` is a term that typically refers to the `/etc/exports` file in Linux-based systems, particularly in the context of NFS (Network File System) configuration. This file is crucial for defining which directories on an NFS server are shared with clients and what permissions those clients have for accessing the shared directories.
+`/etc/exports` is a term that typically refers to the `/etc/exports` file in Linux-based systems, particularly in the context of NFS (Network File System) configuration. This file is crucial for defining which directories on an NFS server are shared with clients and what permissions those clients have for accessing the shared directories.
 
 ## Purpose
 
