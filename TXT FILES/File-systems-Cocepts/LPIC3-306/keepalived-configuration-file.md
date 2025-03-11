@@ -149,4 +149,3 @@ The keepalived configuration file is central to setting up high availability and
 
 For more details and examples, you can refer to the official documentation and community guides on keepalived configuration.
 
-citekeepalived-config-doc
