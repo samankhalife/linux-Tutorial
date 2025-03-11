@@ -2,7 +2,7 @@
 
 `/etc/drbd.conf` is the main configuration file for DRBD (Distributed Replicated Block Device) on Linux systems. It serves as the central point for defining global settings and default options, as well as for including additional resource definitions from separate files (often located in `/etc/drbd.d/`).
 
----
+
 
 ## Purpose
 
@@ -15,7 +15,7 @@
 - **Resource Inclusion:**  
   Includes additional resource configuration files (typically with a `.res` extension) from a dedicated directory, which allows for modular and organized configuration of multiple DRBD resources.
 
----
+
 
 ## Typical Structure
 
@@ -30,7 +30,7 @@ The `/etc/drbd.conf` file generally consists of three main parts:
 3. **Include Directive:**  
    Specifies one or more directories or files where individual DRBD resource definitions are stored.
 
----
+
 
 ## Example Content
 
@@ -62,7 +62,7 @@ include "drbd.d/*.res";
 - **Include Directive:**  
   - `include "drbd.d/*.res";` – Instructs DRBD to load additional resource definitions from files in the `/etc/drbd.d/` directory. Each file typically defines a specific DRBD resource with its own settings for individual nodes.
 
----
+
 
 ## How It Works
 
@@ -72,7 +72,7 @@ include "drbd.d/*.res";
 - **Modular Configuration:**  
   By separating resource-specific settings into individual files within `/etc/drbd.d/`, administrators can manage multiple DRBD resources more easily. This modular approach simplifies updates and troubleshooting.
 
----
+
 
 ## Best Practices
 
@@ -88,7 +88,7 @@ include "drbd.d/*.res";
 - **Test Changes:**  
   Validate configuration changes in a test environment before applying them to production systems to ensure that DRBD behaves as expected.
 
----
+
 
 ## Conclusion
 
