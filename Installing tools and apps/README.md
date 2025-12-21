@@ -1,6 +1,7 @@
 # Here's a basic list of tools and apps needed. but In the production environment, we primarily use automation tools.
 Guide is only for Debian-Based Linux.
 
+
 # Installing Monitoring Tools
 * [glances](https://github.com/nicolargo/glances?tab=readme-ov-file#installation)
 * [glances-with-docker](https://github.com/nicolargo/glances?tab=readme-ov-file#docker-the-cloudy-way)
@@ -13,6 +14,7 @@ Guide is only for Debian-Based Linux.
 * [Kibana](https://www.elastic.co/kibana)
 * [influxdata](https://www.influxdata.com/)
 
+
 # Installing Data bases
 * [Oracle](https://www.oracle.com/eg/linux/technologies/articles/xe-on-kubuntu.html)
 * [MySQL](https://ubuntu.com/server/docs/install-and-configure-a-mysql-server)
@@ -22,6 +24,7 @@ Guide is only for Debian-Based Linux.
 * [SQLite](https://sqlitebrowser.org/dl/#:~:text=sqlitebrowser.org/latest-,Linux,-Our%20latest%20release)
 * [MongoDB](https://www.mongodb.com/docs/manual/tutorial/install-mongodb-on-ubuntu/)
 * [Elasticsearch](https://www.elastic.co/)
+
 
 # Installing Automation Tools
 * [Ansible](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html)
@@ -66,6 +69,7 @@ Guide is only for Debian-Based Linux.
 * [Kafka](https://kafka.apache.org/quickstart)
 * [Rabbitmq](https://www.rabbitmq.com/docs/download)
 
+
 # Server Mangement and Storage
 * [Proxomox](https://pve.proxmox.com/wiki/Installation)
 * [Openstack](https://www.openstack.org/)
@@ -75,13 +79,9 @@ Guide is only for Debian-Based Linux.
   * [Openstack-Helm](https://wiki.openstack.org/wiki/Openstack-helm)
   * [Kayobi](https://docs.openstack.org/kayobe/latest/installation.html)
   * Binaries
+
+
 * [Ceph](https://docs.ceph.com/en/reef/cephadm/)
   * [Ceph-Ansible](https://docs.ceph.com/projects/ceph-ansible/en/latest/)
   * [ROOK](https://rook.io/docs/rook/v1.10/Getting-Started/intro/)
   * [Ceph-Salt](https://github.com/ceph/ceph-salt)
-
-# CLI-Tools
-* [](url)
-* [](url)
-* [](url)
-* [](url)
